@@ -8,7 +8,7 @@ app = Flask(__name__)
 orders = []
 
 @app.route('/orders', methods=['GET'])
-def get_orders():
+def get_orders()
     """Получить список всех заказов"""
     return jsonify(orders)
 
